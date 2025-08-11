@@ -1,0 +1,50 @@
+import { Section } from "@/components/elements/Section";
+import Image from "next/image";
+import { Title, TextPrimary } from "@/components/elements/Texts";
+import { ButtonPrimary } from "@/components/elements/Button";
+
+export default function Hero() {
+  return (
+    <Section className="pt-20 pb-0 bg-purplescale-800">
+      <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
+        <div className="flex flex-col justify-center mb-20">
+          <Title className="mb-4 text-[28px] md:text-[38px] font-semibold text-yellowscale-800 tracking-[-0.96px] leading-normal">
+            <div>Transforme suas</div>
+            <div>aulas em experiências</div>
+            <div>educacionais potentes</div>
+          </Title>
+
+          <TextPrimary className="text-grayscale-100 text-base font-light md:text-2xl leading-[150%]">
+            <div className="mb-8">
+              O Curso Ao Vivo “O Despertador do Professor Facilitador” é para
+              educadores professores, coordenadores e formadores que que sabem
+              que a próxima etapa da sua jornada profissional não está em
+              acumular mais técnicas, mas em amadurecer sua postura, presença e
+              escuta como facilitador(a) de grupos.
+            </div>
+          </TextPrimary>
+          <div className="md:max-w-[450px]">
+            <ButtonPrimary href="#">
+              <p className="shantell uppercase font-semibold text-[17px]">
+                Quero transformar minha prática
+              </p>
+            </ButtonPrimary>
+          </div>
+        </div>
+
+        <div className="relative flex items-end flex-col justify-end">
+          <div className="hidden lg:block relative py-[59%] w-full">
+            <Image
+              fill
+              src="/images/pictures/foto-hero.png"
+              alt="Professor Facilitador"
+              style={{
+                objectFit: "contain",
+              }}
+            />
+          </div>
+        </div>
+      </div>
+    </Section>
+  );
+}

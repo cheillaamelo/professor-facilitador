@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  /* Purplescale */
+  --color-purplescale-800: #7b5ec3;
+
+  /* Yellowscale */
+  --color-yellowscale-800: #fabd41;
+
+  /* Bluescale */
+  --color-bluescale-800: #0097a4;
+
+  /* Grayscale */
+  --color-grayscale-100: #ffffffbf;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 1900px;
+  --breakpoint-4xl: 2300px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.right-shadow-box {
+  box-shadow: 8px 8px 0 0 #000;
+}
+
+.left-shadow-box {
+  box-shadow: -8px 8px 0 0 #000;
+}
+
+.title-shadow {
+  text-shadow: 4px 4px 0 #000;
+}
+
+.shantell {
+  font-family: shantell-sans-bouncy, sans-serif;
+}
