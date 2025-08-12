@@ -6,7 +6,7 @@ interface TextCardItemProps {
 
 export function TextCardItem({ children }: TextCardItemProps) {
   return (
-    <TextPrimary className="ml-4 text-[20px] lg:text-[24px] font-normal leading-[30px] lg:leading-[35px] tracking-[-0.48px] text-left relative">
+    <TextPrimary className="ml-4 text-[18px] md:text-[20px] lg:text-[24px] font-normal leading-[22px] md:leading-[30px] lg:leading-[35px] tracking-[-0.48px] text-left relative">
       <div className="absolute -left-[95px]">
         <svg
           width="79"

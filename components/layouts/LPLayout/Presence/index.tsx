@@ -13,7 +13,7 @@ export default function Presence() {
           <div className="max-w-[max-content] m-auto">
             <Title
               as="h2"
-              className="relative mb-4 text-[52px] lg:text-[60px] font-medium text-yellowscale-800 tracking-[-1.2px] leading-[59px] lg:leading-[69px]"
+              className="text-center md:text-left relative mb-4 text-[34px] md:text-[52px] lg:text-[60px] font-medium text-yellowscale-800 tracking-[-1.2px] leading-[40px] md:leading-[59px] lg:leading-[69px]"
             >
               <div>Você não precisa de</div>
               <div>mais conteúdo.</div>
@@ -22,7 +22,7 @@ export default function Presence() {
               </div>
 
               <svg
-                className="absolute top-[7rem] lg:top-[9rem] left-[14rem] lg:left-[18rem]"
+                className="hidden md:block absolute top-[7rem] lg:top-[9rem] left-[14rem] lg:left-[18rem]"
                 xmlns="http://www.w3.org/2000/svg"
                 width="355"
                 height="66"
@@ -40,13 +40,13 @@ export default function Presence() {
           <Cards
             accentColor="bg-white"
             text={textCard}
-            px="px-18"
-            py="py-8"
+            px="px-8 md:px-18"
+            py="py-8 md:py-8"
             shadowBox="left-shadow-box"
             visible="hidden"
           />
 
-          <div className="md:max-w-[425px] relative -top-[2rem] right-[-17rem] lg:right-[-20rem] h-full p-4">
+          <div className="md:max-w-[425px] relative top-[1rem] md:top-[-2rem] right-[0] md:right-[-17rem] lg:right-[-20rem] h-full p-4">
             <ButtonPrimary href="#">
               <TextPrimary className="font-bold text-2xl lg:text-[28px]">
                 Garanta sua vaga aqui

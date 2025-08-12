@@ -6,13 +6,13 @@ import { ButtonPrimary } from "@/components/elements/Button";
 
 export default function Blog() {
   return (
-    <Section className="flex justify-center px-4 pt-16 pb-8 lg:py-16 lg:py-24">
+    <Section className="flex justify-center px-4 pt-12 md:pt-16 pb-8 lg:py-16 lg:py-24">
       <div className="flex flex-col gap-3 lg:gap-10 text-center">
         <div>
-          <TextSecondary className="text-bluescale-800 tracking-[-1.2px] leading-[60px] lg:leading-[69px] text-[52px] lg:text-6xl font-bold">
+          <TextSecondary className="text-bluescale-800 tracking-[-1.2px] leading-[44px] md:leading-[60px] lg:leading-[69px] text-[40px] md:text-[52px] lg:text-6xl font-bold">
             Conheça o Blog do
           </TextSecondary>
-          <TextSecondary className="text-purplescale-800 tracking-[-1.2px] leading-[60px] lg:leading-[69px] text-[52px] lg:text-6xl font-bold">
+          <TextSecondary className="text-purplescale-800 tracking-[-1.2px] leading-[44px] md:leading-[60px] lg:leading-[69px] text-[40px] md:text-[52px] lg:text-6xl font-bold">
             Professor Facilitador
           </TextSecondary>
         </div>
@@ -20,7 +20,7 @@ export default function Blog() {
         <div>
           <Title
             as="h4"
-            className="mb-4 text-[32px] lg:text-[40px] tracking-[-0.8px] leading-[46px] font-medium"
+            className="mb-4 text-[28px] md:text-[32px] lg:text-[40px] tracking-[-0.8px] leading-[34px] md:leading-[46px] font-medium"
           >
             Um espaço com conteúdos gratuitos sobre:
           </Title>
@@ -30,7 +30,7 @@ export default function Blog() {
       <Cards
         accentColor="bg-purplescale-800"
         text={textCard}
-        px="px-0 lg:px-18"
+        px="px-8 md:px-0 lg:px-18"
         py="py-10 lg:py-20"
         maxWidth="max-w-[1028px]"
         margin="m-auto"
@@ -42,7 +42,7 @@ export default function Blog() {
 
       <div className="md:max-w-[425px] relative -top-[3rem] mx-auto p-4">
         <ButtonPrimary href="#">
-          <TextPrimary className="font-bold text-2xl lg:text-3xl">
+          <TextPrimary className="font-bold text-xl md:text-2xl lg:text-3xl">
             Acesse o blog aqui
           </TextPrimary>
         </ButtonPrimary>

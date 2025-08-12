@@ -57,7 +57,7 @@ export default function CardsGrid({
           >
             {item.icon && <div className="mb-4">{item.icon}</div>}
             <TextComponent
-              className={`${fontSize} leading-[40px] lg:leading-[${
+              className={`${fontSize} leading-[30px] md:leading-[40px] lg:leading-[${
                 leading || "40px"
               }] tracking-[-${tracking || "-0.64px"}]`}
             >

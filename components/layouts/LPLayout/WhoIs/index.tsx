@@ -6,18 +6,18 @@ import { textCard } from "./content";
 
 export default function WhoIs() {
   return (
-    <Section className="flex justify-center px-4 py-16 lg:py-33 relative">
+    <Section className="flex justify-center px-4 pb-18 pt-12 md:py-16 lg:py-33 relative">
       <div className="flex flex-col gap-10 text-center">
         <div className="lg:max-w-[max-content]">
           <Title
             as="h2"
             className="text-center lg:text-left mb-8 lg:mb-16 lg:ml-24 relative"
           >
-            <div className="text-[67px] lg:text-[75px] font-medium text-black tracking-[-1.5px] leading-[60px] lg:leading-[94px]">
+            <div className="text-[56px] md:text-[67px] lg:text-[75px] font-medium text-black tracking-[-1.5px] leading-[60px] lg:leading-[94px]">
               Quem é
             </div>
 
-            <div className="text-[67px] lg:text-[96px] font-medium text-purplescale-800 tracking-[-1.92px] leading-[60px] lg:leading-[94px]">
+            <div className="text-[56px] md:text-[67px] lg:text-[96px] font-medium text-purplescale-800 tracking-[-1.92px] leading-[60px] lg:leading-[94px]">
               Rafa Davini?
             </div>
             <svg
@@ -40,8 +40,8 @@ export default function WhoIs() {
       <Cards
         accentColor="bg-purplescale-800"
         text={textCard}
-        px="px-24"
-        py="py-16"
+        px="px-4 md:px-24"
+        py="py-4 md:py-16"
         maxWidth="max-w-[1367px]"
         textAlign="text-center"
         shadowBox="right-shadow-box"

@@ -8,7 +8,7 @@ export function TextCardItem({ children }: TextCardItemProps) {
   return (
     <Title
       as="h5"
-      className="text-[25px] lg:text-[32px] leading-[46px] tracking-[-0.64px] text-white"
+      className="text-[18px] md:text-[25px] lg:text-[32px] leading-[24px] md:leading-[46px] tracking-[-0.64px] text-white text-left md:text-center"
     >
       • {children}
     </Title>

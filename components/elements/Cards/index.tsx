@@ -50,12 +50,12 @@ export default function Cards({
     >
       <div className={`${maxWidth2} ${gap2} flex flex-col`}>
         <div>
-          <TextPrimary className="text-white text-2xl font-normal leading-[42px] tracking-[-0.48px] text-center lg:text-left">
+          <TextPrimary className="text-white text-xl md:text-2xl font-normal leading-[30px] md:leading-[42px] tracking-[-0.48px] text-left">
             {text2}
           </TextPrimary>
         </div>
         <div>
-          <TextSecondary className="text-white text-2xl font-bold leading-[42px] tracking-[-0.48px] text-center lg:text-left">
+          <TextSecondary className="text-white text-2xl font-bold leading-[42px] tracking-[-0.48px] text-left">
             {text3}
           </TextSecondary>
           <div className={`flex flex-col ${gap} ${grid}`}>

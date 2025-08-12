@@ -6,19 +6,19 @@ import { textCard } from "./content";
 
 export default function Learn() {
   return (
-    <Section className="flex justify-center px-4 pt-12 pb-22 lg:pb-32">
+    <Section className="flex justify-center px-4 pt:0 md:pt-12 pb-22 lg:pb-32">
       <div className="grid lg:grid-cols-2 items-center">
         <div className="flex flex-col gap-10 text-center items-center">
           <div className="max-w-[max-content]">
             <Title
               as="h2"
-              className="text-center mb-4 text-[67px] lg:text-[75px] font-medium text-yellowscale-800 tracking-[-1.5px] leading-[78px] relative"
+              className="text-center mb-4 text-[42px] md:text-[67px] lg:text-[75px] font-medium text-yellowscale-800 tracking-[-1.5px] leading-[50px] md:leading-[78px] relative"
             >
               <div className="text-black">Você vai</div>
 
               <div className="text-black">aprender a:</div>
               <svg
-                className="absolute top-[5.5rem] left-[-3rem]"
+                className="absolute top-[5.5rem] left-[-3rem] hidden md:block"
                 xmlns="http://www.w3.org/2000/svg"
                 width="508"
                 height="76"

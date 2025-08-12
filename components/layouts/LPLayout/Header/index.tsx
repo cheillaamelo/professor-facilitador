@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <Section className="bg-bluescale-800 py-2 lg:py-4">
       <div className="flex justify-between items-center py-4">
-        <div className="relative w-[320px] lg:w-[550px] h-[120px] mx-auto md:mx-0">
+        <div className="relative w-[165px] md:w-[320px] lg:w-[550px] h-[120px] mx-auto md:mx-0">
           <Image
             fill
             src="/images/logos/logo.svg"

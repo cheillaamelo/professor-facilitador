@@ -8,7 +8,7 @@ export default function Hero() {
     <Section className="pt-12 lg:pt-20 pb-8 lg:pb-0 bg-purplescale-800">
       <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
         <div className="flex flex-col justify-center lg:mb-20 text-center lg:text-left">
-          <Title className="mb-4 text-[40px] lg:text-[48px] font-medium text-yellowscale-800 tracking-[-0.96px] leading-[45px] lg:leading-[57px]">
+          <Title className="mb-4 text-[34px] md:text-[40px] lg:text-[48px] font-medium text-yellowscale-800 tracking-[-0.96px] leading-[45px] lg:leading-[57px]">
             <div>Transforme suas</div>
             <div>aulas em experiências</div>
             <div>educacionais potentes</div>
