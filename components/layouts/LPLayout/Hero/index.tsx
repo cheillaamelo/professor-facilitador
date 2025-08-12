@@ -5,16 +5,16 @@ import { ButtonPrimary } from "@/components/elements/Button";
 
 export default function Hero() {
   return (
-    <Section className="pt-20 pb-0 bg-purplescale-800">
+    <Section className="pt-12 lg:pt-20 pb-8 lg:pb-0 bg-purplescale-800">
       <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
-        <div className="flex flex-col justify-center mb-20">
-          <Title className="mb-4 text-[28px] md:text-[48px] font-medium text-yellowscale-800 tracking-[-0.96px] leading-[57px]">
+        <div className="flex flex-col justify-center lg:mb-20 text-center lg:text-left">
+          <Title className="mb-4 text-[40px] lg:text-[48px] font-medium text-yellowscale-800 tracking-[-0.96px] leading-[45px] lg:leading-[57px]">
             <div>Transforme suas</div>
             <div>aulas em experiências</div>
             <div>educacionais potentes</div>
           </Title>
 
-          <TextPrimary className="text-grayscale-100 text-base font-light md:text-2xl leading-[150%]">
+          <TextPrimary className="text-grayscale-100 text-xl lg:text-2xl font-light leading-[150%]">
             <div className="mb-8">
               O Curso Ao Vivo “O Despertador do Professor Facilitador” é para
               educadores professores, coordenadores e formadores que que sabem
@@ -23,9 +23,9 @@ export default function Hero() {
               escuta como facilitador(a) de grupos.
             </div>
           </TextPrimary>
-          <div className="md:max-w-[480px]">
+          <div className="lg:max-w-[480px]">
             <ButtonPrimary href="#">
-              <p className="chantal uppercase font-medium text-[24px]">
+              <p className="chantal uppercase font-medium text-xl lg:text-[24px]">
                 Quero transformar minha prática
               </p>
             </ButtonPrimary>

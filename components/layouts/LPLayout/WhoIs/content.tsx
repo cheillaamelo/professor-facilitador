@@ -6,7 +6,7 @@ interface TextCardItemProps {
 
 export function TextCardItem({ children }: TextCardItemProps) {
   return (
-    <TextSecondary className="font-light text-left text-2xl leading-[40px] tracking-[-0.48px] text-white">
+    <TextSecondary className="font-light text-center lg:text-left text-2xl leading-[40px] tracking-[-0.48px] text-white">
       • {children}
     </TextSecondary>
   );

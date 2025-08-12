@@ -6,19 +6,22 @@ import { textCard } from "./content";
 
 export default function WhoIs() {
   return (
-    <Section className="flex justify-center px-4 py-33 relative">
+    <Section className="flex justify-center px-4 py-16 lg:py-33 relative">
       <div className="flex flex-col gap-10 text-center">
-        <div className="max-w-[max-content]">
-          <Title as="h2" className="text-left mb-16 ml-24 relative">
-            <div className="text-[28px] md:text-[75px] font-medium text-black tracking-[-1.5px] leading-[94px]">
+        <div className="lg:max-w-[max-content]">
+          <Title
+            as="h2"
+            className="text-center lg:text-left mb-8 lg:mb-16 lg:ml-24 relative"
+          >
+            <div className="text-[67px] lg:text-[75px] font-medium text-black tracking-[-1.5px] leading-[60px] lg:leading-[94px]">
               Quem é
             </div>
 
-            <div className="text-[28px] md:text-[96px] font-medium text-purplescale-800 tracking-[-1.92px] leading-[94px]">
+            <div className="text-[67px] lg:text-[96px] font-medium text-purplescale-800 tracking-[-1.92px] leading-[60px] lg:leading-[94px]">
               Rafa Davini?
             </div>
             <svg
-              className="absolute top-[4rem] left-[-6rem]"
+              className="absolute top-[4rem] left-[-6rem] hidden lg:block"
               xmlns="http://www.w3.org/2000/svg"
               width="780"
               height="149"

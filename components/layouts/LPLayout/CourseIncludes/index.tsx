@@ -2,18 +2,19 @@ import { TextPrimary, TextSecondary, Title } from "@/components/elements/Texts";
 import CardsGrid from "@/components/elements/CardsGrid";
 import { items } from "./content";
 import { Section } from "@/components/elements/Section";
+import { ButtonPrimary } from "@/components/elements/Button";
 
 export default function CourseIncludes() {
   return (
     <>
-      <Section className="bg-bluescale-800 px-6 pt-24 pb-50">
+      <Section className="bg-bluescale-800 px-6 pt-18 lg:pt-24 pb-16 lg:pb-50">
         <Title
           as="h2"
-          className="relative text-center text-yellowscale-800 text-2xl md:text-[64px] mb-10 font-medium leading-[69px] tracking-[-1.28px] relative"
+          className="relative text-center text-yellowscale-800 text-[58px] lg:text-[64px] mb-10 font-medium leading-[69px] tracking-[-1.28px] relative"
         >
           O CURSO INCLUI:
           <svg
-            className="absolute top-[0rem] left-[22rem]"
+            className="absolute top-[0rem] left-[2rem] lg:left-[22rem]"
             xmlns="http://www.w3.org/2000/svg"
             width="631"
             height="81"
@@ -34,9 +35,26 @@ export default function CourseIncludes() {
           gap="gap-8"
           py="py-8"
           px="px-8"
+          fontSize="text-2xl lg:text-[32px]"
         />
+
+        <div className="flex flex-col gap-8 block lg:hidden">
+          <div className="bg-purplescale-800 right-shadow-box w-full text-center p-4">
+            <TextSecondary className="text-[28px] leading-[40px] tracking-[-0.72px]">
+              <strong>Bônus: </strong>E-book completo Professor Facilitador.
+            </TextSecondary>
+          </div>
+
+          <div className="w-full lg:max-w-[425px] h-full p-4 mx-auto">
+            <ButtonPrimary href="#">
+              <TextPrimary className="font-bold text-2xl lg:text-[28px]">
+                Quero garantir minha vaga
+              </TextPrimary>
+            </ButtonPrimary>
+          </div>
+        </div>
       </Section>
-      <div className="relative">
+      <div className="hidden lg:block relative">
         <div className="w-full flex absolute top-[-11rem] left-[2.5rem]">
           <div className="bg-purplescale-800 px-6 py-4 relative left-[-2rem] right-shadow-box max-w-[1192px] w-full text-right pr-[7rem] 3xl:[pr-[10rem]">
             <TextSecondary className="text-[36px] leading-[40px] tracking-[-0.72px]">

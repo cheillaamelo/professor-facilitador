@@ -6,7 +6,7 @@ interface TextCardItemProps {
 
 export function TextCardItem({ children }: TextCardItemProps) {
   return (
-    <TextPrimary className="ml-4 text-[24px] font-normal leading-[35px] tracking-[-0.48px] text-left relative text-white">
+    <TextPrimary className="ml-4 text-[20px] lg:text-[24px] font-normal leading-[35px] tracking-[-0.48px] text-left relative text-white">
       <div className="absolute -left-[99px]">
         <svg
           width="64"
@@ -62,7 +62,7 @@ export const textCard1 = lista.map((item) => ({
 export const textCard2 = [
   {
     text: (
-      <TextSecondary className="text-black text-[34px] leading-[53px] tracking-[-0.8px]">
+      <TextSecondary className="text-center lg:text-left text-black text-[28px] lg:text-[34px] leading-[40px] lg:leading-[53px] tracking-[-0.8px]">
         <strong>E talvez o mais duro:</strong> você sente que a tecnologia
         avançou, mas a qualidade das relações humanas ficou para trás
       </TextSecondary>

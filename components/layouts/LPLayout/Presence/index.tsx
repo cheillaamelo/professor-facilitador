@@ -7,13 +7,13 @@ import { Section } from "@/components/elements/Section";
 
 export default function Presence() {
   return (
-    <Section className="bg-purplescale-800 flex justify-center items-center px-6 pt-25 pb-24">
+    <Section className="bg-purplescale-800 flex justify-center items-center px-6 pt-16 lg:pt-25 pb-10 lg:pb-24">
       <div className="w-full flex flex-col md:flex-row items-center gap-10">
         <div className="text-white">
           <div className="max-w-[max-content] m-auto">
             <Title
               as="h2"
-              className="relative mb-4 text-[28px] md:text-[60px] font-medium text-yellowscale-800 tracking-[-1.2px] leading-[69px]"
+              className="relative mb-4 text-[52px] lg:text-[60px] font-medium text-yellowscale-800 tracking-[-1.2px] leading-[59px] lg:leading-[69px]"
             >
               <div>Você não precisa de</div>
               <div>mais conteúdo.</div>
@@ -22,7 +22,7 @@ export default function Presence() {
               </div>
 
               <svg
-                className="absolute top-[9rem] left-[18rem]"
+                className="absolute top-[7rem] lg:top-[9rem] left-[14rem] lg:left-[18rem]"
                 xmlns="http://www.w3.org/2000/svg"
                 width="355"
                 height="66"
@@ -46,16 +46,16 @@ export default function Presence() {
             visible="hidden"
           />
 
-          <div className="md:max-w-[425px] relative -top-[2rem] -right-[20rem] h-full p-4">
+          <div className="md:max-w-[425px] relative -top-[2rem] right-[-17rem] lg:right-[-20rem] h-full p-4">
             <ButtonPrimary href="#">
-              <TextPrimary className="font-bold text-[28px]">
+              <TextPrimary className="font-bold text-2xl lg:text-[28px]">
                 Garanta sua vaga aqui
               </TextPrimary>
             </ButtonPrimary>
           </div>
         </div>
 
-        <div className="relative py-[29%] w-full hidden md:block">
+        <div className="hidden lg:block relative py-[29%] w-full">
           <Image src="/images/pictures/light-new.png" alt="Light" fill />
         </div>
       </div>

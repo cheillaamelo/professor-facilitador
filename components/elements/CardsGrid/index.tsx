@@ -36,9 +36,7 @@ export default function CardsGrid({
     textComponent === "primary" ? TextPrimary : TextSecondary;
 
   return (
-    <div
-      className={`mb-16 grid grid-cols-1 sm:grid-cols-2 ${lgGrid} ${gap} w-full`}
-    >
+    <div className={`mb-16 grid grid-cols-1 ${lgGrid} ${gap} w-full`}>
       {items.map((item, index) => {
         let colorClass: string;
 
@@ -59,7 +57,7 @@ export default function CardsGrid({
           >
             {item.icon && <div className="mb-4">{item.icon}</div>}
             <TextComponent
-              className={`text-[${fontSize || "28px"}] leading-[${
+              className={`${fontSize} leading-[40px] lg:leading-[${
                 leading || "40px"
               }] tracking-[-${tracking || "-0.64px"}]`}
             >
