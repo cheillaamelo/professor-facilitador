@@ -22,8 +22,11 @@
   --breakpoint-4xl: 2300px;
 }
 
+html,
 body {
-  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  overflow-y: auto; /* ou scroll */
 }
 
 * {
@@ -42,6 +45,6 @@ body {
   text-shadow: 4px 4px 0 #000;
 }
 
-.shantell {
-  font-family: shantell-sans-bouncy, sans-serif;
+.chantal {
+  font-family: chantal, sans-serif;
 }

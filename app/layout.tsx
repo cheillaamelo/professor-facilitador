@@ -17,7 +17,7 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="pt-BR">
       <head>
-        <link rel="stylesheet" href="https://use.typekit.net/odw2qav.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/nsj2qkh.css" />
       </head>
       <body className={montserrat.className}>
         <main className="min-h-screen relative">

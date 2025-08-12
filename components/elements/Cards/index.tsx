@@ -66,7 +66,7 @@ export default function Cards({
         </div>
       </div>
       <div
-        className={`${visible} absolute -top-[7rem] -right-[7rem] py-[33%] px-[27%] max-w-[582px] w-full`}
+        className={`${visible} absolute -top-[7rem] -right-[7rem] py-[31%] px-[27%] max-w-[662px] max-h-[795px]`}
       >
         {imageSrc && <Image src={imageSrc} alt="" fill />}
       </div>

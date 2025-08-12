@@ -9,7 +9,7 @@ interface Props {
 
 export const Title = forwardRef<HTMLElement, Props>(
   ({ children, className = "", as: Element = "h1", style }, ref) => {
-    const getClassName = () => `shantell uppercase ${className}`;
+    const getClassName = () => `chantal uppercase ${className}`;
 
     return (
       <Element className={getClassName()} style={style} ref={ref}>

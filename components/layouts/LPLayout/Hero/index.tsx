@@ -8,7 +8,7 @@ export default function Hero() {
     <Section className="pt-20 pb-0 bg-purplescale-800">
       <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
         <div className="flex flex-col justify-center mb-20">
-          <Title className="mb-4 text-[28px] md:text-[38px] font-semibold text-yellowscale-800 tracking-[-0.96px] leading-normal">
+          <Title className="mb-4 text-[28px] md:text-[48px] font-medium text-yellowscale-800 tracking-[-0.96px] leading-[57px]">
             <div>Transforme suas</div>
             <div>aulas em experiências</div>
             <div>educacionais potentes</div>
@@ -23,9 +23,9 @@ export default function Hero() {
               escuta como facilitador(a) de grupos.
             </div>
           </TextPrimary>
-          <div className="md:max-w-[450px]">
+          <div className="md:max-w-[480px]">
             <ButtonPrimary href="#">
-              <p className="shantell uppercase font-semibold text-[17px]">
+              <p className="chantal uppercase font-medium text-[24px]">
                 Quero transformar minha prática
               </p>
             </ButtonPrimary>

@@ -9,7 +9,7 @@ export default function CourseForYou() {
     <Section className="px-6 py-27 relative">
       <Title
         as="h2"
-        className="text-center text-black md:text-5xl mb-20 font-semibold leading-[69px] tracking-[-1.28px] relative"
+        className="text-center text-black md:text-[64px] mb-20 font-medium leading-[50px] tracking-[-1.28px] relative"
       >
         Este curso é para você que:
       </Title>

@@ -5,12 +5,12 @@ import { Title, TextPrimary, TextSecondary } from "@/components/elements/Texts";
 export default function Facilitate() {
   return (
     <Section className="pt-7 pb-30 bg-purplescale-800">
-      <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5 relative">
+      <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 relative">
         <div className="flex flex-col justify-start py-32">
-          <div className="max-w-[max-content]">
+          <div className="w-[max-content]">
             <Title
               as="h2"
-              className="mb-5 text-[28px] md:text-[44px] font-semibold text-yellowscale-800 tracking-[-1.2px] leading-[69px]"
+              className="mb-5 text-[28px] md:text-[60px] font-medium text-yellowscale-800 tracking-[-1.2px] leading-[69px]"
             >
               <div>Facilitar não é</div>
               <div className="text-white">“ser o professor legal”</div>

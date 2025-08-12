@@ -6,7 +6,10 @@ interface TextCardItemProps {
 
 export function TextCardItem({ children }: TextCardItemProps) {
   return (
-    <Title className="text-2xl leading-[40px] tracking-[-0.48px] text-white">
+    <Title
+      as="h5"
+      className="text-[32px] leading-[46px] tracking-[-0.64px] text-white"
+    >
       • {children}
     </Title>
   );
