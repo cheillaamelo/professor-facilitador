@@ -52,10 +52,9 @@ export function TextCardItem({ children }: TextCardItemProps) {
 const items = [
   "Facilitar grupos na sala de aula com leveza e estrutura, sem carregar tudo sozinho(a).",
   "Engajar turmas apáticas com técnicas reais de participação e construção coletiva.",
-  "Mediar conflitos com estratégias práticas e presença",
-  "Criar espaços de escuta real, não apenas simulada.",
-  "Usar ferramentas testadas para: quebra-gelo, aquecer, construir confiança aumentar a participação e etc.",
-  "Planejar e criar aulas com método e  intencionalidade facilitadora.",
+  "Mediar conflitos com estratégias práticas e presença. Criar espaços de escuta real, não apenas simulada.",
+  "Usar ferramentas testadas para: quebrar o gelo, para aquecer, construir confiança entre os alunos, aumentar a participação e gerar discussões e reflexões produtivas, abordar questões difíceis, idear e priorizar ideias, tomar decisões, dar feedback e avaliar e promover o relaxamento.",
+  "Planejar e criar aulas com método e intencionalidade facilitadora.",
   "Desenvolver mais de 35 soft skills essenciais para o professor facilitador como empatia e escuta ativa",
 ];
 

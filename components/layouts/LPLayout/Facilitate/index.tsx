@@ -5,13 +5,13 @@ import { ButtonPrimary } from "@/components/elements/Button";
 
 export default function Facilitate() {
   return (
-    <Section className="py-12 md:py-16 lg:pt-7 lg:pb-30 bg-purplescale-800">
-      <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-20 relative">
-        <div className="flex flex-col justify-start py-0 lg:py-32">
+    <Section className="py-16 lg:py-36 bg-purplescale-800">
+      <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-30 relative mb-12">
+        <div className="flex flex-col">
           <div className="lg:w-[max-content]">
             <Title
               as="h2"
-              className="text-center lg:text-left mb-5 text-[34px] md:text-[52px] lg:text-[60px] font-medium text-yellowscale-800 tracking-[-1.2px] leading-[40px] md:leading-[60px] lg:leading-[69px]"
+              className="text-center lg:text-left mb-11 text-[34px] md:text-[52px] lg:text-[60px] font-medium text-yellowscale-800 tracking-[-1.2px] leading-[40px] md:leading-[60px] lg:leading-[69px]"
             >
               <div>Facilitar não é</div>
               <div className="text-white">“ser o professor legal”</div>
@@ -29,10 +29,10 @@ export default function Facilitate() {
         </div>
 
         <div className="relative flex items-end flex-col justify-end">
-          <div className="relative py-[29%] w-full">
+          <div className="relative py-[13%] w-full">
             <Image
               fill
-              src="/images/pictures/info.png"
+              src="/images/pictures/info-new.png"
               alt=""
               style={{
                 objectFit: "contain",
@@ -42,26 +42,34 @@ export default function Facilitate() {
         </div>
       </div>
       <div className="block lg:hidden relative">
-        <div className="w-full bg-yellowscale-800 absolute top-[-6rem] md:top-[-9rem] z-2 py-[1rem] px-[24px] rounded-xl">
-          <TextSecondary className="text-2xl md:text-[35px] leading-[40px] tracking-[-0.8px] font-bold text-center">
+        <div className="w-full bg-yellowscale-800 py-[1rem] px-[24px] rounded-xl">
+          <TextSecondary className="text-xl md:text-[35px] leading-[40px] tracking-[-0.8px] font-bold text-center">
             E você pode começar agora.
           </TextSecondary>
         </div>
         <div className="w-full h-full p-4 mx-auto">
-          <ButtonPrimary href="#">
-            <TextPrimary className="font-bold text-xl md:text-[23px]">
+          <ButtonPrimary
+            href="https://www.sympla.com.br/preview-online/47c819aaeef3f7432df1f669410afd24"
+            target="_blank"
+          >
+            <TextPrimary className="font-bold text-[18px] md:text-[23px]">
               Garanta sua vaga aqui
             </TextPrimary>
           </ButtonPrimary>
         </div>
       </div>
       <div className="hidden lg:block relative">
-        <div className="w-full flex justify-between bg-yellowscale-800 absolute top-[-7rem] z-2 py-[1rem] px-[24px] rounded-xl">
+        <div className="w-full flex justify-between bg-yellowscale-800 py-[1rem] px-[24px] rounded-xl">
           <TextSecondary className="text-[35px] leading-[40px] tracking-[-0.8px] font-bold">
             E você pode começar agora.
           </TextSecondary>
           <TextPrimary className="font-bold text-[23px] mr-[7rem] ">
-            Garanta sua vaga aqui
+            <a
+              href="https://www.sympla.com.br/preview-online/47c819aaeef3f7432df1f669410afd24"
+              target="_blank"
+            >
+              Garanta sua vaga aqui
+            </a>
           </TextPrimary>
         </div>
       </div>

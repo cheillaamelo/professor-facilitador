@@ -6,18 +6,18 @@ import { textCard } from "./content";
 
 export default function WhoIs() {
   return (
-    <Section className="flex justify-center px-4 pb-18 pt-12 md:py-16 lg:py-33 relative">
+    <Section className="flex justify-center px-4 pb-37 md:pb-[14rem] pt-12 md:py-16 lg:py-33 relative">
       <div className="flex flex-col gap-10 text-center">
         <div className="lg:max-w-[max-content]">
           <Title
             as="h2"
             className="text-center lg:text-left mb-8 lg:mb-16 lg:ml-24 relative"
           >
-            <div className="text-[56px] md:text-[67px] lg:text-[75px] font-medium text-black tracking-[-1.5px] leading-[60px] lg:leading-[94px]">
+            <div className="text-[50px] md:text-[67px] lg:text-[75px] font-medium text-black tracking-[-1.5px] leading-[60px] lg:leading-[94px]">
               Quem é
             </div>
 
-            <div className="text-[56px] md:text-[67px] lg:text-[96px] font-medium text-purplescale-800 tracking-[-1.92px] leading-[60px] lg:leading-[94px]">
+            <div className="text-[50px] md:text-[67px] lg:text-[96px] font-medium text-purplescale-800 tracking-[-1.92px] leading-[60px] lg:leading-[94px]">
               Rafa Davini?
             </div>
             <svg
@@ -41,11 +41,11 @@ export default function WhoIs() {
         accentColor="bg-purplescale-800"
         text={textCard}
         px="px-4 md:px-24"
-        py="py-4 md:py-16"
+        py="pt-8 pb-25 lg:py-16"
         maxWidth="max-w-[1367px]"
         textAlign="text-center"
         shadowBox="right-shadow-box"
-        text2="Psicanalista clínico, educador e facilitador com mais de 10 anos de experiência com formação de professores, facilitação de grupos e metodologias participativas. Mestre pela UNICAMP, é criador do projeto Professor Facilitador, com atuação em universidades (UNICAMP, PUCCAMP, USF, B42) e consultorias em empresas como AMBEV, Grupo Boticário, Mercedes-Benz, EMS, Danone, entre outras."
+        text2="Mestre pela UNICAMP. Professor facilitador de grupos com mais de 10 anos de experiência atuando em universidades como UNICAMP, PUCCAMP e USF). Consultor em empresas como EMS, AMBEV, Grupo O Boticário, Mercedes Benz Caminhões, Danone, entre outras. "
         text3="Especialista em:"
         gap="gap-3"
         maxWidth2="max-w-[550px]"

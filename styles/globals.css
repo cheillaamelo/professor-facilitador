@@ -12,14 +12,6 @@
 
   /* Grayscale */
   --color-grayscale-100: #ffffffbf;
-
-  --breakpoint-sm: 640px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 1024px;
-  --breakpoint-xl: 1280px;
-  --breakpoint-2xl: 1536px;
-  --breakpoint-3xl: 1900px;
-  --breakpoint-4xl: 2300px;
 }
 
 html,
@@ -31,6 +23,46 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+@media (min-width: 1900px) {
+  .section-xxxl-max-w {
+    max-width: 85rem;
+  }
+
+  .cardsgrid-xxxl-top {
+    top: -16rem;
+  }
+
+  .cardsgrid-xxxl-right {
+    right: 17rem;
+  }
+
+  .cardsgrid-xxxl-pt-pb {
+    padding-top: 14%;
+    padding-bottom: 14%;
+  }
+
+  .courseincludes-xxxl-pr {
+    padding-right: 10rem;
+  }
+
+  .courseincludes-xxxl-max-w {
+    max-width: 430px;
+  }
+
+  .courseincludes-xxxl-px {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .cards-xxxl-right {
+    right: -5rem;
+  }
+
+  .cards-image-xxxl-right {
+    right: -7rem;
+  }
 }
 
 .right-shadow-box {

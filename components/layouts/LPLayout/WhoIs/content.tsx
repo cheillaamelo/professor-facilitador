@@ -6,7 +6,7 @@ interface TextCardItemProps {
 
 export function TextCardItem({ children }: TextCardItemProps) {
   return (
-    <TextSecondary className="font-light text-left text-xl md:text-2xl leading-[30px] md:leading-[40px] tracking-[-0.48px] text-white">
+    <TextSecondary className="font-light text-left text-[18px] md:text-2xl leading-[30px] md:leading-[40px] tracking-[-0.48px] text-white">
       • {children}
     </TextSecondary>
   );
@@ -15,8 +15,8 @@ export function TextCardItem({ children }: TextCardItemProps) {
 const items = [
   "Design da Facilitação de Grupos",
   "Design Thinking",
-  "Transformação Digital (Silicon Valley)",
-  "Inovação Exponencial (Singularity University)",
+  "Inovação Exponencial (Singularity University - EUA)  ",
+  "Transformação Digital (Silicon Valley Innovation Center -USA) ",
   "Certificado internacional em metodologias ágeis (SCRUM.org)",
 ];
 

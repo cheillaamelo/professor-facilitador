@@ -30,7 +30,7 @@ export default function CourseForYou() {
         gap="gap-10"
       />
       <div className="hidden lg:block relative">
-        <div className="absolute top-[-19rem] 3xl:top-[-16rem] right-[10rem] 3xl:right-[17rem] py-[17%] 3xl:py-[14%] max-w-[373px] w-full">
+        <div className="absolute top-[-19rem] cardsgrid-xxxl-top right-[10rem] cardsgrid-xxxl-right py-[17%] cardsgrid-xxxl-pt-pb max-w-[373px] w-full">
           <Image src="/images/pictures/lupa.svg" alt="Puzzle" fill />
         </div>
       </div>

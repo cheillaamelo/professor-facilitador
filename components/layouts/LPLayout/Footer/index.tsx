@@ -8,12 +8,12 @@ export const Footer = () => {
     <Section className="bg-bluescale-800 py-0 md:py-10 lg:py-25">
       <div className="flex justify-between items-center py-4">
         <div className="flex flex-col">
-          <Link href="#">
-            <TextSecondary className="text-white font-black text-xs md:text-2xl lg:text-[29px]">
+          <Link href="/">
+            <TextSecondary className="text-white font-black text-[10px] md:text-2xl lg:text-[29px]">
               facilitacao.com.br
             </TextSecondary>
           </Link>
-          <TextSecondary className="text-white font-black text-xs md:text-2xl lg:text-[29px]">
+          <TextSecondary className="text-white font-black text-[10px] md:text-2xl lg:text-[29px]">
             Todos os direitos reservados
           </TextSecondary>
         </div>

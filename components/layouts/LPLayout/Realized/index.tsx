@@ -42,7 +42,7 @@ export default function Realized() {
           accentColor="bg-yellowscale-800"
           text={textCard2}
           maxWidth="max-w-[825px]"
-          right="lg:right-[-3rem] 3xl:-right-[-5rem]"
+          right="lg:right-[-3rem] cards-xxxl-right"
           top="top-8 lg:top-[-3rem]"
           px="px-4 md:px-24"
           py="py-4 md:py-8"
@@ -52,7 +52,7 @@ export default function Realized() {
       </div>
 
       <div className="relative hidden lg:block ">
-        <div className="absolute -top-[45rem] -right-[17rem] 3xl:-right-[7rem] py-[26%] max-w-[582px] w-full hidden md:block">
+        <div className="absolute -top-[45rem] -right-[17rem] cards-image-xxxl-right py-[26%] max-w-[582px] w-full hidden md:block">
           <Image src="/images/pictures/puzzle.png" alt="Puzzle" fill />
         </div>
       </div>

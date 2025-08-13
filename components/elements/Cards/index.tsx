@@ -50,7 +50,7 @@ export default function Cards({
     >
       <div className={`${maxWidth2} ${gap2} flex flex-col`}>
         <div>
-          <TextPrimary className="text-white text-xl md:text-2xl font-normal leading-[30px] md:leading-[42px] tracking-[-0.48px] text-left">
+          <TextPrimary className="text-white text-[18px] md:text-2xl font-normal leading-[30px] md:leading-[42px] tracking-[-0.48px] text-left">
             {text2}
           </TextPrimary>
         </div>
@@ -65,10 +65,12 @@ export default function Cards({
           </div>
         </div>
       </div>
-      <div
-        className={`${visible} hidden lg:block absolute -top-[7rem] -right-[7rem] py-[31%] px-[27%] max-w-[662px] max-h-[795px]`}
-      >
-        {imageSrc && <Image src={imageSrc} alt="" fill />}
+      <div className="relative">
+        <div
+          className={`${visible} absolute top-[-2rem] md:top-[-3rem] lg:top-[-60rem] right-[0] md:right-[-3rem] lg:right-[-7rem] py-[43%] px-[37%] md:py-[31%] md:px-[27%] max-w-[662px] max-h-[795px]`}
+        >
+          {imageSrc && <Image src={imageSrc} alt="" fill />}
+        </div>
       </div>
     </div>
   );

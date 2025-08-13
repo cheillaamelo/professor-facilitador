@@ -13,7 +13,7 @@ export default function Presence() {
           <div className="max-w-[max-content] m-auto">
             <Title
               as="h2"
-              className="text-center md:text-left relative mb-4 text-[34px] md:text-[52px] lg:text-[60px] font-medium text-yellowscale-800 tracking-[-1.2px] leading-[40px] md:leading-[59px] lg:leading-[69px]"
+              className="text-center md:text-left relative mb-4 text-[30px] md:text-[43px] lg:text-[60px] font-medium text-yellowscale-800 tracking-[-1.2px] leading-[32px] md:leading-[52px] lg:leading-[69px]"
             >
               <div>Você não precisa de</div>
               <div>mais conteúdo.</div>
@@ -22,7 +22,7 @@ export default function Presence() {
               </div>
 
               <svg
-                className="hidden md:block absolute top-[7rem] lg:top-[9rem] left-[14rem] lg:left-[18rem]"
+                className="hidden lg:block absolute top-[7rem] lg:top-[9rem] left-[14rem] lg:left-[18rem]"
                 xmlns="http://www.w3.org/2000/svg"
                 width="355"
                 height="66"
@@ -40,22 +40,25 @@ export default function Presence() {
           <Cards
             accentColor="bg-white"
             text={textCard}
-            px="px-8 md:px-18"
-            py="py-8 md:py-8"
+            px="px-8 md:px-4 lg:px-18"
+            py="py-8 md:py-4 lg:py-8"
             shadowBox="left-shadow-box"
             visible="hidden"
           />
 
-          <div className="md:max-w-[425px] relative top-[1rem] md:top-[-2rem] right-[0] md:right-[-17rem] lg:right-[-20rem] h-full p-4">
-            <ButtonPrimary href="#">
-              <TextPrimary className="font-bold text-2xl lg:text-[28px]">
+          <div className="md:max-w-[425px] relative top-[1rem] md:top-[-2rem] right-[0] md:right-[-4rem] lg:right-[-17rem] lg:right-[-20rem] h-full p-4">
+            <ButtonPrimary
+              href="https://www.sympla.com.br/preview-online/47c819aaeef3f7432df1f669410afd24"
+              target="_blank"
+            >
+              <TextPrimary className="font-bold text-xl lg:text-[28px]">
                 Garanta sua vaga aqui
               </TextPrimary>
             </ButtonPrimary>
           </div>
         </div>
 
-        <div className="hidden lg:block relative py-[29%] w-full">
+        <div className="hidden md:block relative py-[29%] w-full">
           <Image src="/images/pictures/light-new.png" alt="Light" fill />
         </div>
       </div>

@@ -40,14 +40,17 @@ export default function CourseIncludes() {
 
         <div className="flex flex-col gap-8 block lg:hidden">
           <div className="bg-purplescale-800 right-shadow-box w-full text-center p-4">
-            <TextSecondary className="text-2xl md:text-[28px] leading-[30px] md:leading-[40px] tracking-[-0.72px]">
+            <TextSecondary className="text-xl md:text-[28px] leading-[30px] md:leading-[40px] tracking-[-0.72px]">
               <strong>Bônus: </strong>E-book completo Professor Facilitador.
             </TextSecondary>
           </div>
 
           <div className="w-full lg:max-w-[425px] h-full p-4 mx-auto">
-            <ButtonPrimary href="#">
-              <TextPrimary className="font-bold text-xl md:text-2xl lg:text-[28px]">
+            <ButtonPrimary
+              href="https://www.sympla.com.br/preview-online/47c819aaeef3f7432df1f669410afd24"
+              target="_blank"
+            >
+              <TextPrimary className="font-bold text-[18px] md:text-2xl lg:text-[28px]">
                 Quero garantir minha vaga
               </TextPrimary>
             </ButtonPrimary>
@@ -56,15 +59,20 @@ export default function CourseIncludes() {
       </Section>
       <div className="hidden lg:block relative">
         <div className="w-full flex absolute top-[-11rem] left-[2.5rem]">
-          <div className="bg-purplescale-800 px-6 py-4 relative left-[-2rem] right-shadow-box max-w-[1192px] w-full text-right pr-[7rem] 3xl:[pr-[10rem]">
+          <div className="bg-purplescale-800 px-6 py-4 relative left-[-2rem] right-shadow-box max-w-[1192px] w-full text-right pr-[7rem] courseincludes-xxxl-pr">
             <TextSecondary className="text-[36px] leading-[40px] tracking-[-0.72px]">
               <strong>Bônus: </strong>E-book completo Professor Facilitador.
             </TextSecondary>
           </div>
-          <div className="flex items-center rounded-xl z-2 relative right-[3rem] max-w-[360px] 3xl:max-w-[430px] w-full bg-yellowscale-800 right-shadow-box">
-            <TextPrimary className="font-bold text-[23px] px-[1rem] 3xl:px-[3rem]">
-              Quero garantir minha vaga
-            </TextPrimary>
+          <div className="flex items-center rounded-xl z-2 relative right-[3rem] max-w-[360px] courseincludes-xxxl-max-w w-full bg-yellowscale-800 right-shadow-box">
+            <ButtonPrimary
+              href="https://www.sympla.com.br/preview-online/47c819aaeef3f7432df1f669410afd24"
+              target="_blank"
+            >
+              <TextPrimary className="font-bold text-[23px] px-[1rem] courseincludes-xxxl-px">
+                Quero garantir minha vaga
+              </TextPrimary>
+            </ButtonPrimary>
           </div>
         </div>
       </div>
