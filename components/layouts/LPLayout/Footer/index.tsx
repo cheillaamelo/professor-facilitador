@@ -20,7 +20,7 @@ export const Footer = () => {
         <div className="relative w-[165px] md:w-[320px] lg:w-[550px] h-[120px] mx-auto md:mx-0">
           <Image
             fill
-            src="https://facilitacao.com.br/wp-content/uploads/2025/08/logo.png"
+            src="https://facilitacao.com.br/blog/wp-content/uploads/2025/08/logo.png"
             alt="Professor Facilitador"
             style={{ objectFit: "contain" }}
           />

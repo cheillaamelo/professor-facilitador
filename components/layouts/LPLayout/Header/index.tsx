@@ -10,7 +10,7 @@ export const Header = () => {
         <div className="relative w-[165px] md:w-[320px] lg:w-[550px] h-[60px] md:h-[120px]">
           <Image
             fill
-            src="https://facilitacao.com.br/wp-content/uploads/2025/08/logo.png"
+            src="https://facilitacao.com.br/blog/wp-content/uploads/2025/08/logo.png"
             alt="Professor Facilitador"
             style={{ objectFit: "contain" }}
           />

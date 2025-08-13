@@ -32,7 +32,7 @@ export default function Facilitate() {
           <div className="relative py-[13%] w-full">
             <Image
               fill
-              src="https://facilitacao.com.br/wp-content/uploads/2025/08/info-new.png"
+              src="https://facilitacao.com.br/blog/wp-content/uploads/2025/08/info-new.png"
               alt=""
               style={{
                 objectFit: "contain",

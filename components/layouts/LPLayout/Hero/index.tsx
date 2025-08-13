@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="relative py-[55%] md:py-[34%] lg:py-[59%] w-full">
             <Image
               fill
-              src="https://facilitacao.com.br/wp-content/uploads/2025/08/foto-hero.png"
+              src="https://facilitacao.com.br/blog/wp-content/uploads/2025/08/foto-hero.png"
               alt="Professor Facilitador"
               style={{
                 objectFit: "contain",
