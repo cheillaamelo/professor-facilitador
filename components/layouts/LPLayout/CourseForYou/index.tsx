@@ -31,7 +31,11 @@ export default function CourseForYou() {
       />
       <div className="hidden lg:block relative">
         <div className="absolute top-[-19rem] cardsgrid-xxxl-top right-[10rem] cardsgrid-xxxl-right py-[17%] cardsgrid-xxxl-pt-pb max-w-[373px] w-full">
-          <Image src="/images/pictures/lupa.svg" alt="Puzzle" fill />
+          <Image
+            src="https://facilitacao.com.br/wp-content/uploads/2025/08/lupa.png"
+            alt="Puzzle"
+            fill
+          />
         </div>
       </div>
     </Section>

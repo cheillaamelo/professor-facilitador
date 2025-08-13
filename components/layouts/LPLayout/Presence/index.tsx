@@ -59,7 +59,11 @@ export default function Presence() {
         </div>
 
         <div className="hidden md:block relative py-[29%] w-full">
-          <Image src="/images/pictures/light-new.png" alt="Light" fill />
+          <Image
+            src="https://facilitacao.com.br/wp-content/uploads/2025/08/light-new.png"
+            alt="Light"
+            fill
+          />
         </div>
       </div>
     </Section>

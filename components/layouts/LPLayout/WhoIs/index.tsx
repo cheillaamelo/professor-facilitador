@@ -50,7 +50,7 @@ export default function WhoIs() {
         gap="gap-3"
         maxWidth2="max-w-[550px]"
         gap2="gap-6"
-        imageSrc="/images/pictures/whois.png"
+        imageSrc="https://facilitacao.com.br/wp-content/uploads/2025/08/whois.png"
         visible="block"
         position="relative"
       />

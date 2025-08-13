@@ -53,7 +53,11 @@ export default function Realized() {
 
       <div className="relative hidden lg:block ">
         <div className="absolute -top-[45rem] -right-[17rem] cards-image-xxxl-right py-[26%] max-w-[582px] w-full hidden md:block">
-          <Image src="/images/pictures/puzzle.png" alt="Puzzle" fill />
+          <Image
+            src="https://facilitacao.com.br/wp-content/uploads/2025/08/puzzle.png"
+            alt="Puzzle"
+            fill
+          />
         </div>
       </div>
     </Section>
