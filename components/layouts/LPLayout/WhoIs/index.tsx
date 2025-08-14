@@ -45,7 +45,7 @@ export default function WhoIs() {
         maxWidth="max-w-[1367px]"
         textAlign="text-center"
         shadowBox="right-shadow-box"
-        text2="Mestre pela UNICAMP. Professor facilitador de grupos com mais de 10 anos de experiência atuando em universidades como UNICAMP, PUCCAMP e USF). Consultor em empresas como EMS, AMBEV, Grupo O Boticário, Mercedes Benz Caminhões, Danone, entre outras. "
+        text2="Mestre pela UNICAMP. Professor facilitador de grupos com mais de 10 anos de experiência atuando em universidades como UNICAMP, PUCCAMP e USF. Consultor em empresas como EMS, AMBEV, Grupo O Boticário, Mercedes Benz Caminhões, Danone, entre outras. "
         text3="Especialista em:"
         gap="gap-3"
         maxWidth2="max-w-[550px]"

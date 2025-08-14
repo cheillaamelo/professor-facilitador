@@ -17,8 +17,8 @@ export default function Hero() {
           <TextPrimary className="text-grayscale-100 text-[18px] lg:text-2xl font-light leading-[150%]">
             <div className="mb-8">
               O Curso Ao Vivo “O Despertador do Professor Facilitador” é para
-              educadores professores, coordenadores e formadores que que sabem
-              que a próxima etapa da sua jornada profissional não está apenas em
+              educadores professores, coordenadores e formadores que sabem que a
+              próxima etapa da sua jornada profissional não está apenas em
               acumular mais conhecimentos e técnicas, mas em amadurecer sua
               postura, presença e escuta como facilitador(a) de grupos.
             </div>

@@ -63,6 +63,10 @@ body {
   .cards-image-xxxl-right {
     right: -7rem;
   }
+
+  .course-includes-xxxl-left {
+    left: 21rem;
+  }
 }
 
 .right-shadow-box {
